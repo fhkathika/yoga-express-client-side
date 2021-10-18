@@ -1,0 +1,39 @@
+.branName-font{
+    font-family: 'Lobster', cursive;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: xx-large;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: wheat;
+}
+.nav-background{
+    /* background-color: rgb(196, 122, 94); */
+    /* background-color: #603424; */
+    /* background-color: rgb(176, 176, 176); */
+    background-color: #513125 #352C2D;;
+}
+.nav-routes-font{
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
+  
+ 
+    /* color: wheat; */
+   
+}
+.nav-links{
+    color: wheat;
+    
+}
+.nav-links:hover{
+    background-color: rgb(196, 122, 94); 
+    border-radius: 20px;
+    color:whitesmoke;
+    text-align: center;
+    transform: scaleX(1) scaleY(1.3);
+}
+
+.banner-caption{
+    position: top;
+}
