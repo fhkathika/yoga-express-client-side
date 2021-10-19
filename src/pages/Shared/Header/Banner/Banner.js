@@ -7,7 +7,7 @@ const Banner = () => {
             <Carousel>
   <Carousel.Item>
   <Carousel.Caption className="banner-caption">
-      <h3>Welcome to our <h2><span style={{color:"#513125"}}>Yoga Express</span></h2></h3>
+      <h3>Welcome to our <span style={{color:"#513125"}}>Yoga Express</span></h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
     <img

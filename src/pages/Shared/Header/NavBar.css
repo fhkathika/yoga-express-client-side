@@ -24,12 +24,13 @@
 }
 .nav-links{
     color: wheat;
+    text-decoration: none;
+    padding: 8px;
     
 }
 .nav-links:hover{
     background-color: rgb(196, 122, 94); 
     border-radius: 20px;
-    color:whitesmoke;
     text-align: center;
     transform: scaleX(1) scaleY(1.3);
 }

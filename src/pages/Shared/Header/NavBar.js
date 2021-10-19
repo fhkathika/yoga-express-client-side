@@ -2,9 +2,12 @@
 import React from 'react';
 import { Container, Nav, Navbar, Row } from 'react-bootstrap';
 import './NavBar.css'
-import { HashLink } from 'react-router-hash-link';
-const NavBar = () => {
 
+import { NavLink } from 'react-router-dom';
+
+import useAuth from '../../../hooks/useAuth';
+const NavBar = () => {
+ const {user,logOut}=useAuth()
     return (
         //NavBar
         <>
@@ -19,14 +22,18 @@ const NavBar = () => {
       <Navbar.Collapse  >
       <Nav  className="me-auto nav-routes-font"  expand="lg" >
      
-      <Nav.Link className="nav-links" style={{color:"wheat"}} href="#home">Home</Nav.Link>
+      <NavLink className="nav-links" style={{color:"wheat"}} to="/home">Home</NavLink>
 
-      <Nav.Link className="nav-links" style={{color:"wheat"}} HashLink to="#classes">Classes</Nav.Link>
-      <Nav.Link className="nav-links" style={{color:"wheat"}} HashLink to="#yogashop">Yoga Shop</Nav.Link>
+      <NavLink className="nav-links" style={{color:"wheat"}} to="/classes">Classes</NavLink>
+      <NavLink className="nav-links" style={{color:"wheat"}}  to="/yogashop">Yoga Shop</NavLink>
+     { user.email?
+ <button onClick={logOut}  className="nav-links" style={{color:"wheat",backgroundColor:"#513125"}}   >Log Out</button>
+     :
+      <NavLink className="nav-links" style={{color:"wheat"}}  to="/login">Log In</NavLink>}
     </Nav>
     </Navbar.Collapse>
     <Navbar.Text className="nav-routes-font" style={{color:"wheat"}} >
-        Signed in as: <a style={{color:"rgb(196, 122, 94)"}}  href="#login"> Mark Otto</a>
+        Signed in as: <a style={{color:"rgb(196, 122, 94)"}}  href="/login">{user.displayName}</a>
       </Navbar.Text>
   
     </Container>

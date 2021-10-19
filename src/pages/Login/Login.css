@@ -1,0 +1,25 @@
+.login-form{
+    margin-top: 10px ;
+}
+.input-field{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.input-field:hover{
+    transform: scale(1.4);
+
+}
+
+.login-form-button{
+ background-color: wheat;
+ color: black;
+ border-radius: 7px;
+ margin: 8px;
+ padding: 5px;
+}
+.login-form-button:hover{
+    background-color: #513125;
+    color: wheat;
+}
