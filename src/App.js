@@ -9,6 +9,10 @@ import Register from './pages/Login/Register/Register';
 import AuthProvider from './Context/AuthProvider';
 import Classes from './pages/Classes/Classes';
 import YogaShop from './pages/YogaShop/YogaShop';
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
+import ServicesDetail from './pages/Home/Services/ServicesDetail/ServicesDetail';
+import NotFound from './pages/NotFound/NotFound';
+
 initializationApp()
 function App() {
   return (
@@ -26,14 +30,21 @@ function App() {
         <Route  path="/classes">
         <Classes></Classes>
         </Route>
-        <Route  path="/yogashop">
+        <PrivateRoute  path="/yogashop">
         <YogaShop></YogaShop>
-        </Route>
+        </PrivateRoute>
         <Route  path="/login">
         <Login></Login>
         </Route>
         <Route  path="/register">
         <Register></Register>
+        </Route>
+        <Route  path="/service/:serviceId/:name/:Detail/:img/">
+        <ServicesDetail></ServicesDetail>
+        </Route>
+
+        <Route  path="*">
+        <NotFound></NotFound>
         </Route>
      
     

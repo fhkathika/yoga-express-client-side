@@ -1,36 +1,39 @@
+import { Typography } from '@mui/material';
 import { height } from '@mui/system';
-import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Card, CardGroup, Col, Row } from 'react-bootstrap';
+import Service from '../Service/Service';
+import './Services.css'
+import ServicesDetail from './ServicesDetail/ServicesDetail';
 
 const Services = () => {
+  const [services,setServices]=useState([])
+  useEffect(()=>{
+    fetch('./service.json')
+    .then(res => res.json())
+    .then(data =>setServices(data))
+  },[])
     
     return (
-        <div  >
-            <h2>Our Main Services</h2>
-            <div className="container-fluid" style={{backgroundColor:"#513125"}}>
-                <h1>services</h1>
-               
-                <Row xs={1} md={2} className="g-4">
+      <div className="services">
+           <h2 style={{marginBottom:"3%"}}>Our Main Services</h2>
+      <Row xs={1} md={3} className="g-4">
+         
 
-
-  
-    <Col>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Card title</Card.Title>
-          <Card.Text>
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </Card.Text>
-        </Card.Body>
-      </Card>
-    </Col>
+{
+  services.map(service =><Service
+  key={service.id}
+  service={service}
+  ></Service>
  
-</Row>
-            </div>
 
-        </div>
+  )
+}
+              
+               
+        </Row> 
+
+         </div>
     );
 };
 
