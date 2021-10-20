@@ -1,5 +1,5 @@
 
-    //  web app's Firebase configuration
+  // Your web app's Firebase configuration
 const firebaseConfig = {
     apiKey: "AIzaSyChUH05ngB5OJLpzlOTq9U410ZGLT8hLCg",
     authDomain: "yoga-express-a10.firebaseapp.com",

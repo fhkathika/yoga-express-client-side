@@ -1,0 +1,55 @@
+[
+       
+    {
+        "id":1,
+        "name":"Yoga Mat",
+        "fee":1200,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12927/1920_1618492951_bikramyogaequipment.jpeg?1618493282"
+    },
+    {
+        "id":2,
+        "name":"Yoga Mat Bag",
+        "fee":2200,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12925/1920_1618492951_equipmentusedinyoga.jpeg?1618493277"
+    },
+    {
+        "id":3,
+        "name":"Yoga Towels",
+        "fee":1900,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12924/1920_1618492896_yogaequipmentlist.jpeg?1618493274"
+    },
+    {
+        "id":4,
+        "name":"Water Bottles",
+       
+        "fee":2700,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12923/1920_1618492896_hotyogaequipment.jpeg?1618493272"
+    },
+    {
+        "id":5,
+        "name":"Yoga Blocks",
+        "Detail":"Studies have shown its effectiveness for reducing anxiety, and a few easy poses in the early morning can help you get into a positive frame of mind for the day ahead.Doing yoga first thing in the morning increases energy and focus throughout the day",
+        "fee":1200,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12921/1920_1618492895_yogaexerciseequipment.jpeg?1618493245"
+    },
+    {
+        "id":6,
+        "name":"Resistance Bands",
+        "fee":3490,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12919/1920_1618492895_bestyogaequipment.jpeg?1618493238"
+    },
+    {
+        "id":7,
+        "name":"Meditation Pillow",
+       
+        "fee":1200,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12915/1920_1618492853_hangingyogaequipment.jpeg?1618493221"
+    },
+    {
+        "id":8,
+        "name":"Eye Pillows  ",
+       
+        "fee":2200,
+        "img":"https://origympersonaltrainercourses.co.uk/files/img_cache/12913/1920_1618492853_cheapyogaequipment.jpeg?1618493215"
+    }
+]

@@ -12,6 +12,7 @@ import YogaShop from './pages/YogaShop/YogaShop';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 import ServicesDetail from './pages/Home/Services/ServicesDetail/ServicesDetail';
 import NotFound from './pages/NotFound/NotFound';
+import Footer from './pages/Shared/Footer/Footer';
 
 initializationApp()
 function App() {
@@ -47,8 +48,8 @@ function App() {
         <NotFound></NotFound>
         </Route>
      
-    
       </Switch>
+      <Footer></Footer>
       </BrowserRouter>
       </AuthProvider>
    

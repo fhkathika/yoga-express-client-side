@@ -1,0 +1,11 @@
+.items{
+    background-color: rgb(236, 219, 212);
+}
+.card-items{
+    background-color: rgb(241, 191, 171);
+}
+.button{
+    background-color: rgb(218, 201, 133);
+    width: 20%;
+    border-radius: 5px;
+}
