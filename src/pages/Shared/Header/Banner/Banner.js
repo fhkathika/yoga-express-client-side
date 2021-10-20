@@ -25,8 +25,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <h3 className="banner-caption">Yoga is a light, which once lit will never dim. The better your practice, the brighter your flame.</h3>
+      
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -37,8 +37,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3 className="banner-caption">The nature of yoga is to shine the light of awareness into the darkest corners of the body.</h3>
+     
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
