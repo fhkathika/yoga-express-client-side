@@ -6,14 +6,14 @@ const Banner = () => {
         <div>
             <Carousel>
   <Carousel.Item>
-  <Carousel.Caption className="banner-caption">
+  <Carousel.Caption >
       <h3>Welcome to our <span style={{color:"#513125"}}>Yoga Express</span></h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
     <img
       className="d-block w-100"
       src="https://i.ibb.co/y4MXdkX/meditation.jpg"
-      alt="First slide"
+      alt=""
     />
    
   </Carousel.Item>
@@ -21,7 +21,7 @@ const Banner = () => {
     <img
       className="d-block w-100"
       src="https://i.ibb.co/ZKppNtR/img4.jpg"
-      alt="Second slide"
+      alt=""
     />
 
     <Carousel.Caption>
@@ -33,7 +33,7 @@ const Banner = () => {
     <img
       className="d-block w-100"
       src="https://i.ibb.co/3Ws5xdX/man-sitting-at-sunrise.jpg"
-      alt="Third slide"
+      alt=""
     />
 
     <Carousel.Caption>
