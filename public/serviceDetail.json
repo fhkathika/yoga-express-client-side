@@ -1,56 +1,69 @@
-[
+{
+    "service":[
+       
     {
         "id":1,
         "name":"Health Yoga",
         "Detail":"Yoga is a practice that connects the body, breath, and mind. It uses physical postures, breathing exercises, and meditation to improve overall health. Yoga was developed as a spiritual practice thousands of years ago",
+        "fee":1200,
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF8cfQhJ0z_U_JQs-mq8tuS3bhjMrGeoOG0A&usqp=CAU"
     },
     {
         "id":2,
         "name":"Yoga Dance",
         "Detail":"Natya (dance) is a sampoorna (complete) yoga as it activates all the senses. “In natya, we have karanas, which are basically yogic poses in rhythm. Yoga is essential to any dancer,we have karanas, which are basically",
+        "fee":2200,
         "img":"http://www.verenaklameth.com/wp-content/uploads/2015/04/natya-yoga-verena-klameth.jpg"
     },
     {
         "id":3,
         "name":"Ashtanga Yoga",
         "Detail":"Ashtanga Vinyasa Yoga is a style of yoga as exercise popularised by K. Pattabhi Jois during the 20th century, often promoted as a modern-day form of classical Indian yoga.He claimed to have learnt the system from his teacher",
+        "fee":1900,
         "img":"https://i.ibb.co/prPyPkw/Ashtanga-Yoga.jpg"
     },
     {
         "id":4,
         "name":"Kundalini Yoga",
         "Detail":"Kundalini yoga is a form of yoga that involves chanting, singing, breathing exercises, and repetitive poses. Its purpose is to activate your Kundalini energy, or shakti. This is a spiritual energy that's said to be located at the base of your spine.",
+        "fee":2700,
         "img":"https://i.ibb.co/zNyTj0Q/Kundalini-Yoga.jpg"
     },
     {
         "id":5,
         "name":"Morning Yoga",
         "Detail":"Studies have shown its effectiveness for reducing anxiety, and a few easy poses in the early morning can help you get into a positive frame of mind for the day ahead.Doing yoga first thing in the morning increases energy and focus throughout the day",
+        "fee":1200,
         "img":"https://i.ibb.co/8gH6WKj/Morning-Yoga.jpg"
     },
     {
         "id":6,
-        "name":"Iyengar yoga",
+        "name":"Iyengar Yoga",
         "Detail":"Iyengar Yoga is a form of yoga as exercise with a focus on the structural alignment of the physical body through the practice of asanas. It differs from other styles of yoga in three ways: precision, sequence and use of props.Iyengar Yoga led the use of props.",
+        "fee":3490,
         "img":"https://i.ibb.co/j3mBd2N/Iyengar-yoga.jpg"
     },
     {
         "id":7,
         "name":"Vinyasa Yoga",
         "Detail":"Vinyasa is an approach to yoga in which you move from one pose directly into the next. There's a flow to a Vinyasa yoga session, though the specific poses and the pace of the flow vary from one instructor to the next. You may also hear the term Ashtanga yoga used interchangeably with Vinyasa.",
+        "fee":1200,
         "img":"https://i.ibb.co/hYCxb8S/Vinyasa-Yoga.jpg"
     },
     {
         "id":8,
-        "name":"Yin yoga",
-        "Detail":"Yin Yoga is a slow-paced style of yoga as exercise, incorporating principles of traditional Chinese medicine, with asanas (postures) that are held for longer periods of time than in other styles.Yin yoga stretches and targets both the deep connective tissues between the muscles, and the fascia throughout the body.",
+        "name":"Yin Yoga",
+        "Detail":"Yoga is a practice that connects the body, breath, and mind. It uses physical postures, breathing exercises, and meditation to improve overall health. Yoga was developed as a spiritual practice thousands of years ago",
+        "fee":3200,
         "img":"https://i.ibb.co/RbxrFhS/Yin-yoga-C.jpg"
     },
     {
         "id":9,
         "name":"Prenatal Yoga",
         "Detail":"Much like other types of childbirth-preparation classes, prenatal yoga is a multifaceted approach to exercise that encourages stretching, mental centering and focused breathing. Research suggests that prenatal yoga is safe and can have many benefits for pregnant women.",
+        "fee":2200,
         "img":"https://i.ibb.co/gSgN6fn/Prenatal-Yoga-Series-1200x525.jpg"
     }
-]
+
+    ]
+}

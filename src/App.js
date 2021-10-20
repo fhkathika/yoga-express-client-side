@@ -39,7 +39,7 @@ function App() {
         <Route  path="/register">
         <Register></Register>
         </Route>
-        <Route  path="/service/:serviceId/:name/:Detail/:img/">
+        <Route  path="/service/:serviceId">
         <ServicesDetail></ServicesDetail>
         </Route>
 

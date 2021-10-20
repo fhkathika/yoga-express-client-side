@@ -2,17 +2,14 @@ import { Typography } from '@mui/material';
 import { height } from '@mui/system';
 import React, { useEffect, useState } from 'react';
 import { Card, CardGroup, Col, Row } from 'react-bootstrap';
+import useServices from '../../../hooks/useServices';
 import Service from '../Service/Service';
 import './Services.css'
 import ServicesDetail from './ServicesDetail/ServicesDetail';
 
 const Services = () => {
-  const [services,setServices]=useState([])
-  useEffect(()=>{
-    fetch('./service.json')
-    .then(res => res.json())
-    .then(data =>setServices(data))
-  },[])
+  const [services]=useServices()
+ 
     
     return (
       <div className="services">

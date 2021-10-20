@@ -25,7 +25,7 @@ const Service = ({service}) => {
         <Typography variant="body2" color="wheat" >
         {Detail}
         </Typography>
-        <Link to={`/service/${id}/${name}/${Detail}/${img.jpg}`}
+        <Link to={`/service/${id}`}
         // {{
         //   pathname: "/service",
         //   search: "?sort=id",
