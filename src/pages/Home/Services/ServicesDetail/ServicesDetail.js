@@ -12,7 +12,7 @@ const ServicesDetail = () => {
     useEffect(()=>{
         fetch('/serviceDetail.json')
         .then(res => res.json())
-        .then(data => setServiceDetail(data.service))
+        .then(data => setServiceDetail(data))
     },[serviceDetail])
 
 // load  service detail
@@ -20,26 +20,29 @@ useEffect(()=>{
    const findDetail=serviceDetail.find(service=>service.id==serviceId)
    setSingleDetail(findDetail)
 },[serviceDetail])
-   
+const background_url='https://i.ibb.co/VHK0F48/Yoga-Background-HD-Photos-All-White-Background.png'
+   const bg={
+       background:`url(${background_url})`
+   }
     return (
-        <div >
+        <div style={bg} sx={{height:'100%'}} >
             <Card.Title style={{color:"#513125"}}> <h1>  {singleDetail?.name}</h1>
             </Card.Title>
            
                         <Container  >
                 <Row style={{margin:"5%" ,width:"100%"  }}>
-                    <Col md={4}>
-                       <Card >
-                       <Card.Img variant="top" src={singleDetail?.img}/>
+                    <Col md={4} sm={12}>
+                       <Card  style={{backgroundColor:'#513125',}}>
+                       <Card.Img variant="top" style={{ height:'250px',borderRadius:'25%'}} src={singleDetail?.img}/>
                            </Card> 
                  
                     </Col>
-                    <Col md={5}>
-                    <Card style={{ width: '18rem',backgroundColor:"wheat", color:"#513125" }}>
+                    <Col md={4} sm={4}>
+                    <Card style={{ width: 'auto',marginRight:'auto',marginLeft:'auto',backgroundColor:"wheat", color:"#513125" }}>
   
-  <Card.Body   >
+  <Card.Body    >
    
-    <Card.Text>
+    <Card.Text style={{color:"#513125"}}>
      {singleDetail?.Detail}
     </Card.Text>
     <Card.Title style={{color:"#513125"}}><h3>Fee: {singleDetail?.fee}</h3></Card.Title>

@@ -7,7 +7,7 @@ import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/fre
 
 const Footer = () => {
     return (
-        <div className=" mt-3  w-100" >
+        <div  md={12} sm={12} style={{ width: 'auto',margin:'auto'}} >
            
            <Navbar sticky="bottom"   bg="dark" variant="dark">
           
