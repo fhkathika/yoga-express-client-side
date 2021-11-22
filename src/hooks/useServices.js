@@ -6,7 +6,7 @@ const useServices =()=>{
         fetch('./service.json')
         .then(res => res.json())
         .then(data => setServices(data))
-    },[])
+    },[services])
     return [services]
 }
 export default useServices;
